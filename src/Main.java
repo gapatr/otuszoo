@@ -71,12 +71,12 @@ public class Main {
                 age = -1;
 
                 while (true) {
-                    System.out.println("Введите вес животного целым числом, но не более двух цифр.  Введите '0', если не знаете вес.");
+                    System.out.println("Введите возрвст животного целым числом, но не более двух цифр.  Введите '0', если не знаете возраст.");
 
                     String animalAge = scanner.nextLine().trim().replaceAll(" ", "");
 
                     if (!numberValidator.isNumber(animalAge)) {
-                        System.out.println("Введен недопустимый вес, повторите попытку");
+                        System.out.println("Введен недопустимый возраст, повторите попытку");
                         continue;
                     }
 
@@ -89,12 +89,12 @@ public class Main {
                 weight = -1;
 
                 while (true) {
-                    System.out.println("Введите возраст животного целым числом, но не более двух цифр. Введите '0', если не знаете возраст.");
+                    System.out.println("Введите вес животного целым числом, но не более двух цифр. Введите '0', если не знаете вес.");
 
                     String animalWeight = scanner.nextLine().trim().replaceAll(" ", "");
 
                     if (!numberValidator.isNumber(animalWeight)) {
-                        System.out.println("Введен недопустимый возраст, повторите попытку");
+                        System.out.println("Введен недопустимый вес, повторите попытку");
                         continue;
                     }
 
