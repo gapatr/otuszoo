@@ -71,7 +71,7 @@ public class Main {
                 age = -1;
 
                 while (true) {
-                    System.out.println("Введите возрвст животного целым числом, но не более двух цифр.  Введите '0', если не знаете возраст.");
+                    System.out.println("Введите возраст животного целым числом, но не более двух цифр.  Введите '0', если не знаете возраст.");
 
                     String animalAge = scanner.nextLine().trim().replaceAll(" ", "");
 
